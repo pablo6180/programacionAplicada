@@ -1,0 +1,7 @@
+edad = -1
+while edad < 18:
+    edad_str = input("Por favor, ingresa tu edad: ")
+    edad = int(edad_str)
+    if edad < 18:
+        print("Debes ser mayor de 18 años para votar. Por favor, ingresa una edad válida.")
+print("Eres elegible para votar.")
