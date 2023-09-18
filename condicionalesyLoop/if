@@ -1,0 +1,6 @@
+edad_str = input("Por favor, ingresa tu edad: ")
+    edad = int(edad_str)
+    if edad >= 18:
+        print("Eres apto para votar.")
+    else:
+        print("Eres demasiado joven para votar.")
